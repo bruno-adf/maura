@@ -1,0 +1,38 @@
+.container{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 15vw;
+    background-color: var(--primaryColor);
+    align-items: center;
+    .title{
+        text-align: center;
+    }
+    .linkA{
+        width: 100px;
+        text-align: left;
+        font-size: 0.9rem;
+        text-decoration: none;
+        color: black;
+    }
+    .linkB{
+        width: 100px;
+        text-align: right;
+        font-size: 0.9rem;
+        text-decoration: none;
+        color: black;
+    }
+    .linkA:hover{
+        cursor: pointer;
+        color: var(--blueColor);
+    }
+    .linkB:hover{
+        cursor: pointer;
+        color: var(--blueColor);
+    }
+}

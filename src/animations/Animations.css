@@ -1,0 +1,9 @@
+.easeleft{
+    transform: translateX(-100%);
+    transition: all 0.5s;
+    opacity: 0;
+}
+.easeleftshow{
+    transform: translateX(0);
+    opacity: 1;
+}
