@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/maura/static/css/main.35de2c47.css",
-    "main.js": "/maura/static/js/main.b5fb7cb1.js",
+    "main.css": "/maura/static/css/main.cdcd71e6.css",
+    "main.js": "/maura/static/js/main.f4796395.js",
     "static/media/mountain.jpg": "/maura/static/media/mountain.651fb30e2c00c4c1feb9.jpg",
     "static/media/contato.jpg": "/maura/static/media/contato.a9ef876233454b2a13d7.jpg",
     "static/media/photo2.jpg": "/maura/static/media/photo2.298f96cbc77e075b9bbe.jpg",
@@ -10,11 +10,11 @@
     "static/media/left.jpg": "/maura/static/media/left.37ee92981d0466dd607f.jpg",
     "static/media/eye.png": "/maura/static/media/eye.56086b8301d79f6c6e04.png",
     "index.html": "/maura/index.html",
-    "main.35de2c47.css.map": "/maura/static/css/main.35de2c47.css.map",
-    "main.b5fb7cb1.js.map": "/maura/static/js/main.b5fb7cb1.js.map"
+    "main.cdcd71e6.css.map": "/maura/static/css/main.cdcd71e6.css.map",
+    "main.f4796395.js.map": "/maura/static/js/main.f4796395.js.map"
   },
   "entrypoints": [
-    "static/css/main.35de2c47.css",
-    "static/js/main.b5fb7cb1.js"
+    "static/css/main.cdcd71e6.css",
+    "static/js/main.f4796395.js"
   ]
 }
