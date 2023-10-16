@@ -1,19 +1,25 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from '../components/Header'
 import eye from '../img/eye.png'
 import aspas from '../img/aspas.png'
 import left from '../img/left.jpg'
 import right from '../img/right.jpg'
+import { Link } from 'react-router-dom'
 import './Info.css'
 import { MdEmail, MdWhatsapp } from 'react-icons/md'
 import Footer from '../components/Footer'
 
 function Info() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    },[])
+
   return (
     <div className='info-container'>
         <Header linkA={'/maura/'} linkB={'/maura/contato'} titleA={'Início'} titleB={'Contato'}></Header>
         <div className='hero'>
-            <div className='text'>
+            <div className='text  animated fadeLeftOnce'>
                 <h2 style={{'color':'var(--blueColor)'}}>Quero te convidar a fazer um mergulho comigo</h2>
                 <div className='divider'></div>
                 <p>
@@ -25,12 +31,12 @@ function Info() {
                     autoconfiança, em crenças de realização e conquistas!
                 </p>
             </div>
-            <img className='image' src={eye} alt="" />
+            <img loading='lazy' decoding='async' className='image animated fadeUpOnce' src={eye} alt="" />
         </div>
         <div className='second'>
             <h2 style={{'alignSelf': 'start'}}>Nossas crenças limitantes afetam nossa<br/>autoconfiança em todas as áreas da nossa vida!</h2>
             <div className='paragraph-container'>
-                <p className='paragraph'>Se eu não confio em mim, não sou capaz de confiar em mais ninguém!
+                <p className='animated fadeRight paragraph'>Se eu não confio em mim, não sou capaz de confiar em mais ninguém!
                 Se eu não confio em mais ninguém, como vou me relacionar em família, com um
                 grande amor, ter amigos, passar por uma entrevista de emprego, um concurso
                 público, pedir um aumento no trabalho ou fazer alguma apresentação na
@@ -45,7 +51,7 @@ function Info() {
                 maneira” , “Tomei uma decisão que há anos eu adiava”.
                 E por aí vai!
                 </p>
-                <p className='paragraph'>
+                <p className='animated fadeLeft paragraph'>
                 Percebendo os resultados dessas pessoas que eu acompanhei de perto, somado
                 às minhas experiências e história, foi que eu estruturei um método para
                 reprogramar as minhas e as crenças limitantes das pessoas que precisavam
@@ -63,14 +69,14 @@ function Info() {
             </div>
             <h2>Você tem algum desses pensamentos?</h2>
             <div className='card-container'>
-                <div className='card' style={{'marginRight':'10px'}}>
+                <div className='card animated fadeUp' style={{'marginRight':'10px'}}>
                     <img className='aspasA' src={aspas} alt="" />
                     <p>Não posso sair desse emprego, não posso fazer mais, não posso falar o que penso, não
                     posso fazer diferente, não posso começar um curso novo, não posso deixar meus filhos,
                     não posso encontrar um amor, não posso parar de tomar remédios...</p>
                     <img className='aspasB' src={aspas} alt="" />
                 </div>
-                <div className='card'>
+                <div className='card animated fadeUp'>
                     <img className='aspasA' src={aspas} alt="" />
                     <p>Não consigo aprender isso, não consigo fazer melhor, não consigo sair das dívidas, não
                     consigo me expressar, não consigo vender, não consigo ter mais tempo, não consigo me
@@ -78,7 +84,7 @@ function Info() {
                     </p>
                     <img className='aspasB' src={aspas} alt="" />
                 </div>
-                <div className='card' style={{'marginLeft':'10px'}}>
+                <div className='card animated fadeUp' style={{'marginLeft':'10px'}}>
                     <img className='aspasA' src={aspas} alt="" />
                     <p>Não mereço ter dinheiro, não mereço perdão, não mereço coisas boas nessa vida, não
                     mereço um amor, não mereço ser saudável, não mereço reconhecimento...</p>
@@ -87,9 +93,9 @@ function Info() {
             </div>
         </div>
         <div className='third'>
-            <img className='left' src={left} alt="" />
+            <img loading='lazy' decoding='async' className='left animated fadeRight' src={left} alt="" />
             <div className='text'>
-                <div className='content'>
+                <div className='content animated fadeUp'>
                     <h2>Foi somente depois que eu consegui estruturar um PASSO A PASSO de
                     diagnóstico e reprogramação das minhas próprias crenças, que tudo mudou!</h2>
                     <br/><br/>
@@ -107,17 +113,23 @@ function Info() {
                     preciso que você coloque em prática os 4 passos! Só assim, as crenças que te limitam poderão ser reprogramadas!
                     </p>
                     <div className='button-container'>
-                        <button className='icon-button'>
-                            <MdWhatsapp color='white' size={'30px'}/>
-                        </button>
-                        <button className='text-button'>Descubra mais</button>
-                        <button className='icon-button'>
-                            <MdEmail color='white' size={'30px'}/>
-                        </button>
+                        <Link to='http://wa.me/5516981106084'>
+                            <button className='icon-button'>
+                                <MdWhatsapp color='white' size={'30px'}/>
+                            </button>
+                        </Link>
+                        <Link to='https://pag.ae/7ZNoNRVEp'>
+                            <button className='text-button'>Reprograme sua mente</button>
+                        </Link>
+                        <a href='mailto:mastercoachmaura@gmail.com'>
+                            <button className='icon-button'>
+                                <MdEmail color='white' size={'30px'}/>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
-            <img className='right' src={right} alt="" />
+            <img loading='lazy' decoding='async' className='right animated fadeLeft' src={right} alt="" />
         </div>
         <Footer/>
     </div>

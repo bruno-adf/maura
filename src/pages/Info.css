@@ -89,6 +89,7 @@
         padding: 0 15vw;
         height: 750px;
         background-color: var(--primaryColor);
+        overflow: hidden;
 
         .left {
             position: absolute;

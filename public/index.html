@@ -11,21 +11,6 @@
   <title>Maura</title>
 </head>
 <body>
-  <script defer>
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('easeleftshow');
-        } else {
-          entry.target.classList.remove('easeleftshow');
-        }
-      })
-    });
-
-    const elements = document.querySelectorAll('.easeleft');
-    console.log(elements);
-    elements.forEach((el) => observer.observe(el));
-  </script>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
 </body>
