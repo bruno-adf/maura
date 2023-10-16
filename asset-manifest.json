@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/maura/static/css/main.cdcd71e6.css",
-    "main.js": "/maura/static/js/main.f4796395.js",
+    "main.css": "/maura/static/css/main.4b0ad131.css",
+    "main.js": "/maura/static/js/main.9472246c.js",
     "static/media/mountain.jpg": "/maura/static/media/mountain.651fb30e2c00c4c1feb9.jpg",
     "static/media/contato.jpg": "/maura/static/media/contato.a9ef876233454b2a13d7.jpg",
-    "static/media/photo2.jpg": "/maura/static/media/photo2.298f96cbc77e075b9bbe.jpg",
     "static/media/right.jpg": "/maura/static/media/right.97f871a3fe5609a63adb.jpg",
-    "static/media/photo1.jpg": "/maura/static/media/photo1.8f8831644fa5c3489b59.jpg",
+    "static/media/photo2.webp": "/maura/static/media/photo2.0ec2b76ab0ad990c1c26.webp",
     "static/media/left.jpg": "/maura/static/media/left.37ee92981d0466dd607f.jpg",
+    "static/media/photo1.webp": "/maura/static/media/photo1.61d437e47fa926b9e5fb.webp",
     "static/media/eye.png": "/maura/static/media/eye.56086b8301d79f6c6e04.png",
     "index.html": "/maura/index.html",
-    "main.cdcd71e6.css.map": "/maura/static/css/main.cdcd71e6.css.map",
-    "main.f4796395.js.map": "/maura/static/js/main.f4796395.js.map"
+    "main.4b0ad131.css.map": "/maura/static/css/main.4b0ad131.css.map",
+    "main.9472246c.js.map": "/maura/static/js/main.9472246c.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdcd71e6.css",
-    "static/js/main.f4796395.js"
+    "static/css/main.4b0ad131.css",
+    "static/js/main.9472246c.js"
   ]
 }
